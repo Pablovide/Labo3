@@ -1,0 +1,249 @@
+*{
+    font-family: 'Ubuntu', arial;
+}
+
+body{
+    width: 1920px;
+}
+
+#cabecera img{
+    width: 192px;
+    height: 126px;
+    padding-left: 40px;
+    padding-top: 20px;
+    float: left;
+    margin-right: 151px;
+    margin-bottom: 20px;
+}
+
+#enlaces{
+    padding-top: 68px;
+}
+
+#enlaces span{
+    margin-right: 124px;
+    font-size: 24px;
+}
+
+#buscador{
+    position: absolute;
+    left:1504px;
+	top:55px;
+}
+
+#buscador input{
+    width: 257px;
+    height: 48px;
+    font-size: 25px;
+}
+
+#buscador button{
+    margin-left: 15px;
+    width: 100px;
+    height: 32px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.lineaHorizontal{
+    width: 100%;
+    height: 1px;
+    color: black;
+    background-color: black;
+}
+
+.itemAmarillo{
+    height: 502px;
+    width: 100%;
+    background-color: #FFCE38;
+}
+
+.itemAzul{
+    height: 502px;
+    width: 100%;
+    background-color: #41CFFA;
+}
+
+#cuerpo img{
+    width: 326px;
+    height: 326px;
+}
+
+.itemAmarillo img{
+    margin-top: 88px;
+    margin-left: 283px;
+    float: left;
+}
+
+.itemAzul img{
+    margin-top: 88px;
+    margin-right: 283px;
+    float: right;
+}
+
+.itemAmarillo span{
+    margin-top: 170px;
+    margin-right: 130px;
+    font-size: 30px;
+    float: right;
+    width: 640px;
+    text-align: center;
+}
+
+.itemAzul span{
+    margin-top: 170px;
+    margin-left: 130px;
+    font-size: 30px;
+    float: left;
+    width: 640px;
+    text-align: center;
+}
+
+.ultimasNoticias{
+    font-size: 44px;
+    position: absolute;
+    left: 70px;
+	top: 1739px;
+}
+
+#noticia1{
+    border-style: solid;
+    width: 725px;
+    height: 260px;
+    margin-top: 120px;
+    margin-left: 118px;
+    margin-bottom: 74px;
+    float: left;
+}
+
+#noticia2{
+    border-style: solid;
+    width: 725px;
+    height: 260px;
+    margin-top: 120px;
+    margin-right: 118px;
+    margin-bottom: 74px;
+    float: right;
+}
+
+#noticia1 img{
+    width: 225px;
+    height: 225px;
+    margin-top: 18px;
+    margin-left: 25px;
+    float: left;
+}
+
+#noticia2 img{
+    width: 225px;
+    height: 225px;
+    margin-top: 18px;
+    margin-left: 25px;
+    float: left;
+}
+
+.tituloNoticia{
+    font-size: 36px;
+    width: 450px;
+    height: 88px;
+    float: right;
+    margin-top: 18px;
+}
+
+.cuerpoNoticia{
+    font-size: 24px;
+    width: 450px;
+    height: 88px;
+    float: right;
+}
+
+#footer{
+    height: 492px;
+}
+
+#nosotros{
+    width: 50%;
+    height: 100%;
+    background-color: #41CFFA;
+    float: left;
+}
+
+.silJoq{
+    font-size: 64px;
+    position:absolute;
+	left: 350px;
+	top:2300px;
+}
+
+#formulario{
+    width: 50%;
+    height: 100%;
+    background-color: #FFCE38;
+    float: right;
+    font-size: 20px;
+}
+
+#redes{
+    width: 675px;
+    height: 180px;
+}
+
+#redes img{
+    width: 85px;
+    height: 85px;
+}
+
+.redSocial1{
+    position: absolute;
+	left: 190px;
+	top: 2490px;
+    text-align: center;
+}
+
+.redSocial2{
+    position: absolute;
+	left: 400px;
+	top: 2490px;
+    text-align: center;
+}
+
+.redSocial3{
+    position: absolute;
+	left: 610px;
+	top: 2490px;
+    text-align: center;
+}
+
+.registro{
+    font-size: 44px;
+    position: absolute;
+	left: 1360px;
+	top: 2250px;
+}
+
+#nombre{
+    margin-top: 180px;
+    margin-left: 60px;
+}
+
+#correo{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+#formulario input{
+    margin-left: 30px;
+    width: 500px;
+    height: 48px;
+    font-size: 30px;
+}
+
+#formulario button{
+    margin-left: 425px;
+    margin-top: 60px;
+    width: 140px;
+    height: 40px;
+}
