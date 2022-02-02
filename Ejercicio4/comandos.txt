@@ -1,2 +1,0 @@
-docker pull httpd
-docker run -dit --name apache -p 8080:80 -v /Ejercicio4:/usr/local/apache2/htdocs httpd
