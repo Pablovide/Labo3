@@ -22,12 +22,15 @@ services:
       - "1433:1433"
     environment:
       ACCEPT_EULA : Y
-      SA_PASSWORD : Pa$$w0rd
+      SA_PASSWORD : MyStrongPassword@
     volumes:
-      - ./db/data:/var/opt/mssql
+      - mssql_server_data:/var/opt/mssql
     networks:
       - backend
 
 networks:
   backend:
   frontend:
+
+volumes:
+  mssql_server_data:
