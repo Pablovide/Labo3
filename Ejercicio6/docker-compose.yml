@@ -1,0 +1,36 @@
+version: '3.1'
+services:
+  webserver:
+    image: httpd
+    ports:
+      - "8282:80"
+    volumes:
+      - ../Ejercicio4/src:/usr/local/apache2/htdocs
+    networks:
+      - frontend
+  webapi:
+    build:
+      context: ../Ejercicio5/FooBarAPI
+    ports:
+      - "8181:80"
+    networks:
+      - backend
+      - frontend
+  db:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA : Y
+      SA_PASSWORD : MyStrongPassword@
+    volumes:
+      - mssql_server_data:/var/opt/mssql
+    networks:
+      - backend
+
+networks:
+  backend:
+  frontend:
+
+volumes:
+  mssql_server_data:
